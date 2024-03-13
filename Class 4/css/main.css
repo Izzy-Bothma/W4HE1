@@ -42,12 +42,28 @@ margin: 0;}
     overflow: hidden;
 }
 
+.flexItem4{
+    padding: 10px;
+    flex: 30%;
+}
+
+.flexItem4 img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
 @media (max-width:800px){
     .flexContainer{
         flex-direction: column;
     }
 
     .flexItem3 img{
+        height: auto;
+    }
+
+    .flexItem4 img{
         height: auto;
     }
 }
